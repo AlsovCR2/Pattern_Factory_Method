@@ -1,0 +1,28 @@
+Patrón creacional Prototype
+El patrón de diseño Prototype es un patrón de creación de software utilizado en el diseño de objetos. Su objetivo principal es permitir la creación de nuevos objetos duplicando un objeto existente, conocido como el prototipo, en lugar de crear objetos desde cero. Esto es especialmente útil cuando la creación de un objeto es costosa en términos de recursos computacionales o tiempo.
+
+Funcionamiento de Prototype
+Se crea una clase base que define la interfaz para clonar objetos. Esta clase suele tener un método "clone" que devuelve una copia superficial o profunda del objeto.
+Se crean clases concretas que implementan la interfaz del prototipo. Estas clases concretas proporcionan la lógica para clonar un objeto y pueden tener propiedades específicas.
+Se crea un conjunto de objetos prototipo, normalmente al inicio de la aplicación o cuando los objetos prototipo estén disponibles.
+Cuando se necesita crear un nuevo objeto, se selecciona un prototipo apropiado y se clona para crear la nueva instancia.
+Ventajas
+Reutilización de objetos: Facilita la creación de nuevos objetos a partir de objetos prototipo existentes, reduciendo la duplicación de código en una aplicación.
+Eficiencia en la creación de objetos: Evita la creación costosa de objetos desde cero, especialmente en objetos complejos.
+Flexibilidad en la creación de objetos: Permite la creación de objetos similares con diferencias específicas.
+Reducción de la sobrecarga de memoria y tiempo: Mejora el rendimiento al clonar objetos en lugar de crearlos desde cero.
+Simplificación de la creación de objetos complejos: Facilita la creación de objetos con relaciones intrincadas.
+Desventajas
+Complejidad en la gestión de prototipos: Puede ser complicado gestionar múltiples prototipos en una aplicación.
+Costo de clonación: La clonación de objetos puede ser costosa en recursos.
+Complejidad en la implementación: La lógica de clonación puede ser compleja, aumentando la complejidad del código.
+Pérdida de encapsulación: Dependiendo de la implementación, puede requerir exponer detalles internos de las clases.
+Potencial para ciclos infinitos: Si no se maneja adecuadamente, puede dar lugar a ciclos infinitos durante la clonación.
+Ejemplo
+Ejemplo en C# de Prototype: GitLab
+
+Video que explica el código: YouTube
+
+Referencias
+Nicolas Battaglia. (2020a, 7 de junio). Patrón de diseño Prototype en #C [Video]. YouTube. https://www.youtube.com/watch?v=mWLeTd-Gi34
+ChatGPT. (26/9/2023). Conversación sobre el patrón de diseño Prototype. [Nota: Esta conversación es una interacción con un asistente virtual y no sigue un formato de cita tradicional de APA].
