@@ -40,5 +40,5 @@ Puedes implementar el patrón Factory Method en tu código siguiendo estos pasos
 4. Crea subclases concretas del Creador que implementen el Factory Method para crear instancias de Productos Concretos.
 5. En tu código cliente, utiliza una instancia del Creador para crear objetos de Productos sin necesidad de conocer la clase concreta.
 
-## Referencias:
+## Referencias
 Refactoring Guru. (s.f.). Patrón de diseño Factory Method. Recuperado de https://refactoring.guru/es/design-patterns/factory-method
