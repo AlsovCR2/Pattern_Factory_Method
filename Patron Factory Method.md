@@ -28,7 +28,7 @@ La estructura del Factory Method consta de los siguientes elementos:
 - Evitas un acoplamiento fuerte entre el creador y los productos concretos.
 - Principio de responsabilidad única. Permite mover el código de creación de producto a un lugar del programa, haciendo que el código sea más fácil de mantener.
 - Principio de abierto/cerrado. Permite incorporar nuevos tipos de productos en el programa sin descomponer el código cliente existente.
-- 
+
 ## Desventajas
 Puede ser que el código se complique, ya que se debe incorporar una multitud de nuevas subclases para implementar el patrón. La situación ideal sería introducir el patrón en una jerarquía existente de clases creadoras.
 
